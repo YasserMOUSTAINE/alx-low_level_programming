@@ -11,7 +11,12 @@ int main(void)
 	char l = 'a';
 	char c = 'A';
 
-	while (ch <= 'Z')
+	while (l <= 'z')
+	{
+		putchar(l);
+		l++
+	}
+	while (c <= 'Z')
 	{
 		putchar(c);
 		c++
